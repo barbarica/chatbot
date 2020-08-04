@@ -1,9 +1,9 @@
 const chat = {
     1: {
-        text: 'Hi! This is a choice-driven chatbot. Click "Start"',
+        text: 'Hi! This is a choice-driven chatbot. Click the button.',
         options: [
             {
-                text: 'Start ⚡⚡',
+                text: 'Click Me 🙃',
                 next: 2
             }
         ]
