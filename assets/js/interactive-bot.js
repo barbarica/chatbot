@@ -1,3 +1,4 @@
+// mobile wiew
 if (window.innerWidth < 600){
   document.getElementById('bodybox').style.maxWidth = '80vw'
 }
@@ -10,7 +11,7 @@ if (window.innerWidth < 600){
 var messages = [], //array that hold the record of each string in chat
   lastUserMessage = "", //keeps track of the most recent input string from the user
   botMessage = "", //var keeps track of what the chatbot is going to say
-  botName = 'Chatbot', //name of the chatbot
+  botName = 'Bot ', //name of the chatbot
   talking = true; //when false the speach function doesn't work
 //
 //
@@ -70,7 +71,8 @@ function newEntry() {
     //sets the variable botMessage in response to lastUserMessage
     chatbotResponse();
     //add the chatbot's name and message to the array messages
-    messages.push("<b>" + botName + ":</b> " + botMessage);
+    //messages.push("<b>" + botName + "</b> &nbsp;" + botMessage);
+    messages.push("<b style='border: 2px solid black; color: white; background-color: rgba(0,0,0,0.7);'>" + botName + "</b> &nbsp;" + botMessage);
     // says the message using the text to speech function written below
     Speech(botMessage);
     //outputs the last few array elements of messages to html

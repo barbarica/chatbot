@@ -10,7 +10,7 @@ body {
     max-width: 40vw;
     font: 10px arial, sans-serif;
     background-color: white;
-    border-style: solid;
+    border-style: solid transparent;
     border-width: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -23,7 +23,8 @@ body {
   #chatborder {
     border-style: solid;
     background-color: #f6f9f6;
-    border-width: 3px;
+    border-width: 0px;
+    box-shadow: rgb(203, 203, 203) 2px 2px 4px inset, rgb(255, 255, 255) -2px -2px 4px inset;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -43,6 +44,9 @@ body {
     font: 17px arial, sans-serif;
     height: 22px;
     width: 100%;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
   }
   
   h1 {
