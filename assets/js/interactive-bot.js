@@ -26,7 +26,7 @@ var messages = [], //array that hold the record of each string in chat
 function chatbotResponse() {
   talking = true;
   //botMessage = "I'm confused"; //the default message
-  const defMsgs = ['I am confused','I am confused because I am still in development','Yes?']
+  const defMsgs = ['I am confused','I am confused because I am still in development', 'I do not understand ...']
   botMessage = defMsgs[Math.floor(Math.random()*(defMsgs.length))];;
 
   if (lastUserMessage === 'hi' || lastUserMessage === 'Hi' || lastUserMessage =='hello') {
