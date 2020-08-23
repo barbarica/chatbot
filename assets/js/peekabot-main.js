@@ -1,6 +1,6 @@
 const chat = {
     1: {
-        text: 'Hi! This is a choice-driven chatbot. Click the "Start⚡️⚡️" button.',
+        text: 'Hi! This is a choice-driven chatbot. Click the "Start" button.',
         options: [
             {
                 text: 'Start⚡️⚡️',
@@ -9,7 +9,7 @@ const chat = {
         ]
     },
     2: {
-        text: 'This is <b>MGR-DST NewGen IEDC</b> protoype chatbot', //prototype <del>less than</del>',
+        text: 'This is <b>Barbarica Infallible</b> protoype chatbot (Still in development)', //prototype <del>less than</del>',
         next: 3
     },
     3: {
