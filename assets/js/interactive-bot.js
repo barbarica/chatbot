@@ -43,7 +43,7 @@ function chatbotResponse() {
   }
 
   if (lastUserMessage === 'purpose' || lastUserMessage === 'Purpose' || lastUserMessage === 'purpose?' || lastUserMessage === 'Purpose?') {
-    botMessage = "I was built for seed funding from MGR DST NewGen IEDC"
+    botMessage = "I was built for chatting with customers"
   }
 }
 //****************************************************************
